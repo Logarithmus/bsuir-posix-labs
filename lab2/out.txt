@@ -1,0 +1,840 @@
+"/home/artur/BSUIR/РПнJava"                    	      250K 2
+"/home/artur/BSUIR/1 семестр"              	      8.5K 0
+"/home/artur/BSUIR/2 семестр"              	      8.5K 0
+"/home/artur/BSUIR/3 семестр"              	      8.5K 0
+"/home/artur/BSUIR/4 семестр"              	      8.5K 0
+"/home/artur/BSUIR/5 семестр"              	      8.5K 0
+"/home/artur/BSUIR/6 семестр"              	      8.5K 0
+"/home/artur/BSUIR/7 семестр"              	      8.5K 0
+"/home/artur/BSUIR/Old"                           	      140M 883
+"/home/artur/BSUIR/PMKMS"                         	       512 0
+"/home/artur/BSUIR/БвКС"                      	       12M 140
+"/home/artur/BSUIR/ДПиАОМС"                	       37M 51
+"/home/artur/BSUIR/Диплом"                  	       27M 12
+"/home/artur/BSUIR/МВС"                        	      2.0M 5
+"/home/artur/BSUIR/ОСМУ"                      	      881K 23
+"/home/artur/BSUIR/ПМКМС"                    	       23M 170
+"/home/artur/BSUIR/ПОМС"                      	      1.6M 5
+"/home/artur/BSUIR/Почта БГУИР.docx"    	       69K 1
+"/home/artur/BSUIR/Практика"              	      9.2M 14
+"/home/artur/BSUIR/РПнJava"                    	      250K 2
+"/home/artur/.config/Android Open Source Project" 	       13K 1
+"/home/artur/.config/Audaciousrc"                 	      4.5K 1
+"/home/artur/.config/GIMP"                        	      639K 65
+"/home/artur/.config/GNU Octaverc"                	      4.5K 1
+"/home/artur/.config/JetBrains"                   	      619K 68
+"/home/artur/.config/QtProject.conf"              	      4.5K 1
+"/home/artur/.config/RSS Guard"                   	      1.2M 4
+"/home/artur/.config/RSS Guardrc"                 	      4.5K 1
+"/home/artur/.config/Thunar"                      	       18K 2
+"/home/artur/.config/Unity"                       	       13K 1
+"/home/artur/.config/Unity Hub"                   	      9.0K 1
+"/home/artur/.config/UnityHub"                    	       18M 114
+"/home/artur/.config/alsa"                        	       18K 2
+"/home/artur/.config/android"                     	      5.4G 292
+"/home/artur/.config/arkrc"                       	      4.5K 1
+"/home/artur/.config/audacious"                   	       44K 6
+"/home/artur/.config/autostart"                   	       44K 7
+"/home/artur/.config/autostart-scripts"           	      9.0K 0
+"/home/artur/.config/binwalk"                     	       44K 2
+"/home/artur/.config/bluedevilglobalrc"           	      4.5K 1
+"/home/artur/.config/brasero"                     	       13K 1
+"/home/artur/.config/cef_user_data"               	      350K 1
+"/home/artur/.config/chromium"                    	      180M 3570
+"/home/artur/.config/configstore"                 	       13K 1
+"/home/artur/.config/dconf"                       	       25K 1
+"/home/artur/.config/device_automounter_kcmrc"    	      4.5K 1
+"/home/artur/.config/doctl"                       	       17K 1
+"/home/artur/.config/dolphinrc"                   	      4.5K 1
+"/home/artur/.config/emaildefaults"               	      4.5K 1
+"/home/artur/.config/enchant"                     	      9.5K 2
+"/home/artur/.config/evolution"                   	      436K 65
+"/home/artur/.config/filelightrc"                 	      4.5K 1
+"/home/artur/.config/filetypesrc"                 	      4.5K 1
+"/home/artur/.config/filezilla"                   	       32K 6
+"/home/artur/.config/firejail"                    	       13K 1
+"/home/artur/.config/fontconfig"                  	       18K 2
+"/home/artur/.config/foot"                        	       13K 1
+"/home/artur/.config/galculator"                  	       13K 1
+"/home/artur/.config/gammastep"                   	       13K 1
+"/home/artur/.config/gh"                          	       18K 2
+"/home/artur/.config/git"                         	       13K 1
+"/home/artur/.config/glib-2.0"                    	       22K 1
+"/home/artur/.config/goa-1.0"                     	      8.5K 0
+"/home/artur/.config/google-chrome"               	      8.5K 0
+"/home/artur/.config/gtk-2.0"                     	       22K 3
+"/home/artur/.config/gtk-3.0"                     	       27K 4
+"/home/artur/.config/gtkrc-2.0"                   	      4.5K 1
+"/home/artur/.config/htop"                        	       13K 1
+"/home/artur/.config/inkscape"                    	      111K 3
+"/home/artur/.config/java"                        	       57K 5
+"/home/artur/.config/kcalcrc"                     	      4.5K 1
+"/home/artur/.config/kdeglobals"                  	      4.5K 1
+"/home/artur/.config/kitty"                       	       36K 4
+"/home/artur/.config/ktouch2rc"                   	      4.5K 1
+"/home/artur/.config/kwalletmanager5rc"           	      4.5K 1
+"/home/artur/.config/kwalletrc"                   	      4.5K 1
+"/home/artur/.config/libreoffice"                 	      8.6M 995
+"/home/artur/.config/libvirt"                     	      102K 0
+"/home/artur/.config/lximage-qt"                  	       13K 1
+"/home/artur/.config/lxqt"                        	       13K 1
+"/home/artur/.config/mako"                        	      8.5K 0
+"/home/artur/.config/matplotlib"                  	      8.5K 0
+"/home/artur/.config/meli"                        	       13K 1
+"/home/artur/.config/mimeapps.list"               	      4.5K 1
+"/home/artur/.config/mpv"                         	       18K 2
+"/home/artur/.config/neofetch"                    	       21K 1
+"/home/artur/.config/newsboat"                    	       30K 2
+"/home/artur/.config/nu"                          	      9.0K 1
+"/home/artur/.config/nvim"                        	       92M 3118
+"/home/artur/.config/obs-studio"                  	      426K 25
+"/home/artur/.config/octave"                      	      8.5K 0
+"/home/artur/.config/okularpartrc"                	      4.5K 1
+"/home/artur/.config/okularrc"                    	      4.5K 1
+"/home/artur/.config/oxygen-gtk"                  	       13K 1
+"/home/artur/.config/oxygenrc"                    	      4.5K 1
+"/home/artur/.config/parallel"                    	       48K 4
+"/home/artur/.config/pcmanfm-qt"                  	       22K 1
+"/home/artur/.config/pipewire-media-session"      	       18K 2
+"/home/artur/.config/powerdevilrc"                	      4.5K 1
+"/home/artur/.config/powermanagementprofilesrc"   	      4.5K 1
+"/home/artur/.config/procps"                      	      8.5K 0
+"/home/artur/.config/pulse"                       	      9.5K 0
+"/home/artur/.config/qBittorrent"                 	       31K 4
+"/home/artur/.config/qt5ct"                       	       30K 1
+"/home/artur/.config/qtcurve"                     	       18K 2
+"/home/artur/.config/Android Open Source Project" 	       13K 1
+"/home/artur/.config/Audaciousrc"                 	      4.5K 1
+"/home/artur/.config/GIMP"                        	      639K 65
+"/home/artur/.config/GNU Octaverc"                	      4.5K 1
+"/home/artur/.config/JetBrains"                   	      619K 68
+"/home/artur/.config/QtProject.conf"              	      4.5K 1
+"/home/artur/.config/RSS Guard"                   	      1.2M 4
+"/home/artur/.config/RSS Guardrc"                 	      4.5K 1
+"/home/artur/.config/Thunar"                      	       18K 2
+"/home/artur/.config/Unity"                       	       13K 1
+"/home/artur/.config/Unity Hub"                   	      9.0K 1
+"/home/artur/.config/UnityHub"                    	       18M 114
+"/home/artur/.config/alsa"                        	       18K 2
+"/home/artur/.config/android"                     	      5.4G 292
+"/home/artur/.config/arkrc"                       	      4.5K 1
+"/home/artur/.config/audacious"                   	       44K 6
+"/home/artur/.config/autostart"                   	       44K 7
+"/home/artur/.config/autostart-scripts"           	      9.0K 0
+"/home/artur/.config/binwalk"                     	       44K 2
+"/home/artur/.config/bluedevilglobalrc"           	      4.5K 1
+"/home/artur/.config/brasero"                     	       13K 1
+"/home/artur/.config/cef_user_data"               	      350K 1
+"/home/artur/.config/chromium"                    	      180M 3570
+"/home/artur/.config/configstore"                 	       13K 1
+"/home/artur/.config/dconf"                       	       25K 1
+"/home/artur/.config/device_automounter_kcmrc"    	      4.5K 1
+"/home/artur/.config/doctl"                       	       17K 1
+"/home/artur/.config/dolphinrc"                   	      4.5K 1
+"/home/artur/.config/emaildefaults"               	      4.5K 1
+"/home/artur/.config/enchant"                     	      9.5K 2
+"/home/artur/.config/evolution"                   	      436K 65
+"/home/artur/.config/filelightrc"                 	      4.5K 1
+"/home/artur/.config/filetypesrc"                 	      4.5K 1
+"/home/artur/.config/filezilla"                   	       32K 6
+"/home/artur/.config/firejail"                    	       13K 1
+"/home/artur/.config/fontconfig"                  	       18K 2
+"/home/artur/.config/foot"                        	       13K 1
+"/home/artur/.config/galculator"                  	       13K 1
+"/home/artur/.config/gammastep"                   	       13K 1
+"/home/artur/.config/gh"                          	       18K 2
+"/home/artur/.config/git"                         	       13K 1
+"/home/artur/.config/glib-2.0"                    	       22K 1
+"/home/artur/.config/goa-1.0"                     	      8.5K 0
+"/home/artur/.config/google-chrome"               	      8.5K 0
+"/home/artur/.config/gtk-2.0"                     	       22K 3
+"/home/artur/.config/gtk-3.0"                     	       27K 4
+"/home/artur/.config/gtkrc-2.0"                   	      4.5K 1
+"/home/artur/.config/htop"                        	       13K 1
+"/home/artur/.config/inkscape"                    	      111K 3
+"/home/artur/.config/java"                        	       57K 5
+"/home/artur/.config/kcalcrc"                     	      4.5K 1
+"/home/artur/.config/kdeglobals"                  	      4.5K 1
+"/home/artur/.config/kitty"                       	       36K 4
+"/home/artur/.config/ktouch2rc"                   	      4.5K 1
+"/home/artur/.config/kwalletmanager5rc"           	      4.5K 1
+"/home/artur/.config/kwalletrc"                   	      4.5K 1
+"/home/artur/.config/libreoffice"                 	      8.6M 995
+"/home/artur/.config/libvirt"                     	      102K 0
+"/home/artur/.config/lximage-qt"                  	       13K 1
+"/home/artur/.config/lxqt"                        	       13K 1
+"/home/artur/.config/mako"                        	      8.5K 0
+"/home/artur/.config/matplotlib"                  	      8.5K 0
+"/home/artur/.config/meli"                        	       13K 1
+"/home/artur/.config/mimeapps.list"               	      4.5K 1
+"/home/artur/.config/mpv"                         	       18K 2
+"/home/artur/.config/neofetch"                    	       21K 1
+"/home/artur/.config/newsboat"                    	       30K 2
+"/home/artur/.config/nu"                          	      9.0K 1
+"/home/artur/.config/nvim"                        	       92M 3118
+"/home/artur/.config/obs-studio"                  	      426K 25
+"/home/artur/.config/octave"                      	      8.5K 0
+"/home/artur/.config/okularpartrc"                	      4.5K 1
+"/home/artur/.config/okularrc"                    	      4.5K 1
+"/home/artur/.config/oxygen-gtk"                  	       13K 1
+"/home/artur/.config/oxygenrc"                    	      4.5K 1
+"/home/artur/.config/parallel"                    	       48K 4
+"/home/artur/.config/pcmanfm-qt"                  	       22K 1
+"/home/artur/.config/pipewire-media-session"      	       18K 2
+"/home/artur/.config/powerdevilrc"                	      4.5K 1
+"/home/artur/.config/powermanagementprofilesrc"   	      4.5K 1
+"/home/artur/.config/procps"                      	      8.5K 0
+"/home/artur/.config/pulse"                       	      9.5K 0
+"/home/artur/.config/qBittorrent"                 	       31K 4
+"/home/artur/.config/qt5ct"                       	       30K 1
+"/home/artur/.config/qtcurve"                     	       18K 2
+"/home/artur/.config/qutebrowser"                 	       18K 2
+"/home/artur/.config/readline"                    	       13K 1
+"/home/artur/.config/redshift.conf"               	      4.5K 1
+"/home/artur/.config/s3cmd"                       	       13K 1
+"/home/artur/.config/sddmthemeinstallerrc"        	      4.5K 1
+"/home/artur/.config/session"                     	       34K 2
+"/home/artur/.config/spectaclerc"                 	      4.5K 1
+"/home/artur/.config/straw-viewer"                	      740K 6
+"/home/artur/.config/sway"                        	       26K 3
+"/home/artur/.config/systemmonitorrc"             	      4.5K 1
+"/home/artur/.config/systemsettingsrc"            	      4.5K 1
+"/home/artur/.config/unity3d"                     	      579K 31
+"/home/artur/.config/user-dirs.dirs"              	      4.5K 1
+"/home/artur/.config/user-dirs.locale"            	      4.5K 1
+"/home/artur/.config/waybar"                      	       40K 5
+"/home/artur/.config/wget"                        	       14K 2
+"/home/artur/.config/xbacklight"                  	       13K 1
+"/home/artur/.config/xsettingsd"                  	       13K 1
+"/home/artur/.config/zathura"                     	       13K 1
+"/home/artur/.config/zsh"                         	      3.3M 163
+"/home/artur/.config/Android Open Source Project" 	13K	1
+"/home/artur/.config/Audaciousrc"                 	4.5K	1
+"/home/artur/.config/GIMP"                        	639K	65
+"/home/artur/.config/GNU Octaverc"                	4.5K	1
+"/home/artur/.config/JetBrains"                   	619K	68
+"/home/artur/.config/QtProject.conf"              	4.5K	1
+"/home/artur/.config/RSS Guard"                   	1.2M	4
+"/home/artur/.config/RSS Guardrc"                 	4.5K	1
+"/home/artur/.config/Thunar"                      	18K	2
+"/home/artur/.config/Unity"                       	13K	1
+"/home/artur/.config/Unity Hub"                   	9.0K	1
+"/home/artur/.config/UnityHub"                    	18M	114
+"/home/artur/.config/alsa"                        	18K	2
+"/home/artur/.config/android"                     	5.4G	292
+"/home/artur/.config/arkrc"                       	4.5K	1
+"/home/artur/.config/audacious"                   	44K	6
+"/home/artur/.config/autostart"                   	44K	7
+"/home/artur/.config/autostart-scripts"           	9.0K	0
+"/home/artur/.config/binwalk"                     	44K	2
+"/home/artur/.config/bluedevilglobalrc"           	4.5K	1
+"/home/artur/.config/brasero"                     	13K	1
+"/home/artur/.config/cef_user_data"               	350K	1
+"/home/artur/.config/chromium"                    	180M	3570
+"/home/artur/.config/configstore"                 	13K	1
+"/home/artur/.config/dconf"                       	25K	1
+"/home/artur/.config/device_automounter_kcmrc"    	4.5K	1
+"/home/artur/.config/doctl"                       	17K	1
+"/home/artur/.config/dolphinrc"                   	4.5K	1
+"/home/artur/.config/emaildefaults"               	4.5K	1
+"/home/artur/.config/enchant"                     	9.5K	2
+"/home/artur/.config/evolution"                   	436K	65
+"/home/artur/.config/filelightrc"                 	4.5K	1
+"/home/artur/.config/filetypesrc"                 	4.5K	1
+"/home/artur/.config/filezilla"                   	32K	6
+"/home/artur/.config/firejail"                    	13K	1
+"/home/artur/.config/fontconfig"                  	18K	2
+"/home/artur/.config/foot"                        	13K	1
+"/home/artur/.config/galculator"                  	13K	1
+"/home/artur/.config/gammastep"                   	13K	1
+"/home/artur/.config/gh"                          	18K	2
+"/home/artur/.config/git"                         	13K	1
+"/home/artur/.config/glib-2.0"                    	22K	1
+"/home/artur/.config/goa-1.0"                     	8.5K	0
+"/home/artur/.config/google-chrome"               	8.5K	0
+"/home/artur/.config/gtk-2.0"                     	22K	3
+"/home/artur/.config/gtk-3.0"                     	27K	4
+"/home/artur/.config/gtkrc-2.0"                   	4.5K	1
+"/home/artur/.config/htop"                        	13K	1
+"/home/artur/.config/inkscape"                    	111K	3
+"/home/artur/.config/java"                        	57K	5
+"/home/artur/.config/kcalcrc"                     	4.5K	1
+"/home/artur/.config/kdeglobals"                  	4.5K	1
+"/home/artur/.config/kitty"                       	36K	4
+"/home/artur/.config/ktouch2rc"                   	4.5K	1
+"/home/artur/.config/kwalletmanager5rc"           	4.5K	1
+"/home/artur/.config/kwalletrc"                   	4.5K	1
+"/home/artur/.config/libreoffice"                 	8.6M	995
+"/home/artur/.config/libvirt"                     	102K	0
+"/home/artur/.config/lximage-qt"                  	13K	1
+"/home/artur/.config/lxqt"                        	13K	1
+"/home/artur/.config/mako"                        	8.5K	0
+"/home/artur/.config/matplotlib"                  	8.5K	0
+"/home/artur/.config/meli"                        	13K	1
+"/home/artur/.config/mimeapps.list"               	4.5K	1
+"/home/artur/.config/mpv"                         	18K	2
+"/home/artur/.config/neofetch"                    	21K	1
+"/home/artur/.config/newsboat"                    	30K	2
+"/home/artur/.config/nu"                          	9.0K	1
+"/home/artur/.config/nvim"                        	92M	3118
+"/home/artur/.config/obs-studio"                  	426K	25
+"/home/artur/.config/octave"                      	8.5K	0
+"/home/artur/.config/okularpartrc"                	4.5K	1
+"/home/artur/.config/okularrc"                    	4.5K	1
+"/home/artur/.config/oxygen-gtk"                  	13K	1
+"/home/artur/.config/oxygenrc"                    	4.5K	1
+"/home/artur/.config/parallel"                    	48K	4
+"/home/artur/.config/pcmanfm-qt"                  	22K	1
+"/home/artur/.config/pipewire-media-session"      	18K	2
+"/home/artur/.config/powerdevilrc"                	4.5K	1
+"/home/artur/.config/powermanagementprofilesrc"   	4.5K	1
+"/home/artur/.config/procps"                      	8.5K	0
+"/home/artur/.config/pulse"                       	9.5K	0
+"/home/artur/.config/qBittorrent"                 	31K	4
+"/home/artur/.config/qt5ct"                       	30K	1
+"/home/artur/.config/qtcurve"                     	18K	2
+"/home/artur/.config/qutebrowser"                 	18K	2
+"/home/artur/.config/readline"                    	13K	1
+"/home/artur/.config/redshift.conf"               	4.5K	1
+"/home/artur/.config/s3cmd"                       	13K	1
+"/home/artur/.config/sddmthemeinstallerrc"        	4.5K	1
+"/home/artur/.config/session"                     	34K	2
+"/home/artur/.config/spectaclerc"                 	4.5K	1
+"/home/artur/.config/straw-viewer"                	740K	6
+"/home/artur/.config/sway"                        	26K	3
+"/home/artur/.config/systemmonitorrc"             	4.5K	1
+"/home/artur/.config/systemsettingsrc"            	4.5K	1
+"/home/artur/.config/unity3d"                     	579K	31
+"/home/artur/.config/user-dirs.dirs"              	4.5K	1
+"/home/artur/.config/user-dirs.locale"            	4.5K	1
+"/home/artur/.config/waybar"                      	40K	5
+"/home/artur/.config/wget"                        	14K	2
+"/home/artur/.config/xbacklight"                  	13K	1
+"/home/artur/.config/xsettingsd"                  	13K	1
+"/home/artur/.config/zathura"                     	13K	1
+"/home/artur/.config/zsh"                         	3.3M	163
+"/home/artur/.config/Android Open Source Project" 	  13K	   1
+"/home/artur/.config/Audaciousrc"                 	 4.5K	   1
+"/home/artur/.config/GIMP"                        	 639K	  65
+"/home/artur/.config/GNU Octaverc"                	 4.5K	   1
+"/home/artur/.config/JetBrains"                   	 619K	  68
+"/home/artur/.config/QtProject.conf"              	 4.5K	   1
+"/home/artur/.config/RSS Guard"                   	 1.2M	   4
+"/home/artur/.config/RSS Guardrc"                 	 4.5K	   1
+"/home/artur/.config/Thunar"                      	  18K	   2
+"/home/artur/.config/Unity"                       	  13K	   1
+"/home/artur/.config/Unity Hub"                   	 9.0K	   1
+"/home/artur/.config/UnityHub"                    	  18M	 114
+"/home/artur/.config/alsa"                        	  18K	   2
+"/home/artur/.config/android"                     	 5.4G	 292
+"/home/artur/.config/arkrc"                       	 4.5K	   1
+"/home/artur/.config/audacious"                   	  44K	   6
+"/home/artur/.config/autostart"                   	  44K	   7
+"/home/artur/.config/autostart-scripts"           	 9.0K	   0
+"/home/artur/.config/binwalk"                     	  44K	   2
+"/home/artur/.config/bluedevilglobalrc"           	 4.5K	   1
+"/home/artur/.config/brasero"                     	  13K	   1
+"/home/artur/.config/cef_user_data"               	 350K	   1
+"/home/artur/.config/chromium"                    	 180M	3567
+"/home/artur/.config/configstore"                 	  13K	   1
+"/home/artur/.config/dconf"                       	  25K	   1
+"/home/artur/.config/device_automounter_kcmrc"    	 4.5K	   1
+"/home/artur/.config/doctl"                       	  17K	   1
+"/home/artur/.config/dolphinrc"                   	 4.5K	   1
+"/home/artur/.config/emaildefaults"               	 4.5K	   1
+"/home/artur/.config/enchant"                     	 9.5K	   2
+"/home/artur/.config/evolution"                   	 436K	  65
+"/home/artur/.config/filelightrc"                 	 4.5K	   1
+"/home/artur/.config/filetypesrc"                 	 4.5K	   1
+"/home/artur/.config/filezilla"                   	  32K	   6
+"/home/artur/.config/firejail"                    	  13K	   1
+"/home/artur/.config/fontconfig"                  	  18K	   2
+"/home/artur/.config/foot"                        	  13K	   1
+"/home/artur/.config/galculator"                  	  13K	   1
+"/home/artur/.config/gammastep"                   	  13K	   1
+"/home/artur/.config/gh"                          	  18K	   2
+"/home/artur/.config/git"                         	  13K	   1
+"/home/artur/.config/glib-2.0"                    	  22K	   1
+"/home/artur/.config/goa-1.0"                     	 8.5K	   0
+"/home/artur/.config/google-chrome"               	 8.5K	   0
+"/home/artur/.config/gtk-2.0"                     	  22K	   3
+"/home/artur/.config/gtk-3.0"                     	  27K	   4
+"/home/artur/.config/gtkrc-2.0"                   	 4.5K	   1
+"/home/artur/.config/htop"                        	  13K	   1
+"/home/artur/.config/inkscape"                    	 111K	   3
+"/home/artur/.config/java"                        	  57K	   5
+"/home/artur/.config/kcalcrc"                     	 4.5K	   1
+"/home/artur/.config/kdeglobals"                  	 4.5K	   1
+"/home/artur/.config/kitty"                       	  36K	   4
+"/home/artur/.config/ktouch2rc"                   	 4.5K	   1
+"/home/artur/.config/kwalletmanager5rc"           	 4.5K	   1
+"/home/artur/.config/kwalletrc"                   	 4.5K	   1
+"/home/artur/.config/libreoffice"                 	 8.6M	 995
+"/home/artur/.config/libvirt"                     	 102K	   0
+"/home/artur/.config/lximage-qt"                  	  13K	   1
+"/home/artur/.config/lxqt"                        	  13K	   1
+"/home/artur/.config/mako"                        	 8.5K	   0
+"/home/artur/.config/matplotlib"                  	 8.5K	   0
+"/home/artur/.config/meli"                        	  13K	   1
+"/home/artur/.config/mimeapps.list"               	 4.5K	   1
+"/home/artur/.config/mpv"                         	  18K	   2
+"/home/artur/.config/neofetch"                    	  21K	   1
+"/home/artur/.config/newsboat"                    	  30K	   2
+"/home/artur/.config/nu"                          	 9.0K	   1
+"/home/artur/.config/nvim"                        	  92M	3118
+"/home/artur/.config/obs-studio"                  	 426K	  25
+"/home/artur/.config/octave"                      	 8.5K	   0
+"/home/artur/.config/okularpartrc"                	 4.5K	   1
+"/home/artur/.config/okularrc"                    	 4.5K	   1
+"/home/artur/.config/oxygen-gtk"                  	  13K	   1
+"/home/artur/.config/oxygenrc"                    	 4.5K	   1
+"/home/artur/.config/parallel"                    	  48K	   4
+"/home/artur/.config/pcmanfm-qt"                  	  22K	   1
+"/home/artur/.config/pipewire-media-session"      	  18K	   2
+"/home/artur/.config/powerdevilrc"                	 4.5K	   1
+"/home/artur/.config/powermanagementprofilesrc"   	 4.5K	   1
+"/home/artur/.config/procps"                      	 8.5K	   0
+"/home/artur/.config/pulse"                       	 9.5K	   0
+"/home/artur/.config/qBittorrent"                 	  31K	   4
+"/home/artur/.config/qt5ct"                       	  30K	   1
+"/home/artur/.config/qtcurve"                     	  18K	   2
+"/home/artur/.config/qutebrowser"                 	  18K	   2
+"/home/artur/.config/readline"                    	  13K	   1
+"/home/artur/.config/redshift.conf"               	 4.5K	   1
+"/home/artur/.config/s3cmd"                       	  13K	   1
+"/home/artur/.config/sddmthemeinstallerrc"        	 4.5K	   1
+"/home/artur/.config/session"                     	  34K	   2
+"/home/artur/.config/spectaclerc"                 	 4.5K	   1
+"/home/artur/.config/straw-viewer"                	 740K	   6
+"/home/artur/.config/sway"                        	  26K	   3
+"/home/artur/.config/systemmonitorrc"             	 4.5K	   1
+"/home/artur/.config/systemsettingsrc"            	 4.5K	   1
+"/home/artur/.config/unity3d"                     	 579K	  31
+"/home/artur/.config/user-dirs.dirs"              	 4.5K	   1
+"/home/artur/.config/user-dirs.locale"            	 4.5K	   1
+"/home/artur/.config/waybar"                      	  40K	   5
+"/home/artur/.config/wget"                        	  14K	   2
+"/home/artur/.config/xbacklight"                  	  13K	   1
+"/home/artur/.config/xsettingsd"                  	  13K	   1
+"/home/artur/.config/zathura"                     	  13K	   1
+"/home/artur/.config/zsh"                         	 3.3M	 163
+"/home/artur/.config/Android Open Source Project" 	     13K	       1
+"/home/artur/.config/Audaciousrc"                 	    4.5K	       1
+"/home/artur/.config/GIMP"                        	    639K	      65
+"/home/artur/.config/GNU Octaverc"                	    4.5K	       1
+"/home/artur/.config/JetBrains"                   	    619K	      68
+"/home/artur/.config/QtProject.conf"              	    4.5K	       1
+"/home/artur/.config/RSS Guard"                   	    1.2M	       4
+"/home/artur/.config/RSS Guardrc"                 	    4.5K	       1
+"/home/artur/.config/Thunar"                      	     18K	       2
+"/home/artur/.config/Unity"                       	     13K	       1
+"/home/artur/.config/Unity Hub"                   	    9.0K	       1
+"/home/artur/.config/UnityHub"                    	     18M	     114
+"/home/artur/.config/alsa"                        	     18K	       2
+"/home/artur/.config/android"                     	    5.4G	     292
+"/home/artur/.config/arkrc"                       	    4.5K	       1
+"/home/artur/.config/audacious"                   	     44K	       6
+"/home/artur/.config/autostart"                   	     44K	       7
+"/home/artur/.config/autostart-scripts"           	    9.0K	       0
+"/home/artur/.config/binwalk"                     	     44K	       2
+"/home/artur/.config/bluedevilglobalrc"           	    4.5K	       1
+"/home/artur/.config/brasero"                     	     13K	       1
+"/home/artur/.config/cef_user_data"               	    350K	       1
+"/home/artur/.config/chromium"                    	    180M	    3567
+"/home/artur/.config/configstore"                 	     13K	       1
+"/home/artur/.config/dconf"                       	     25K	       1
+"/home/artur/.config/device_automounter_kcmrc"    	    4.5K	       1
+"/home/artur/.config/doctl"                       	     17K	       1
+"/home/artur/.config/dolphinrc"                   	    4.5K	       1
+"/home/artur/.config/emaildefaults"               	    4.5K	       1
+"/home/artur/.config/enchant"                     	    9.5K	       2
+"/home/artur/.config/evolution"                   	    436K	      65
+"/home/artur/.config/filelightrc"                 	    4.5K	       1
+"/home/artur/.config/filetypesrc"                 	    4.5K	       1
+"/home/artur/.config/filezilla"                   	     32K	       6
+"/home/artur/.config/firejail"                    	     13K	       1
+"/home/artur/.config/fontconfig"                  	     18K	       2
+"/home/artur/.config/foot"                        	     13K	       1
+"/home/artur/.config/galculator"                  	     13K	       1
+"/home/artur/.config/gammastep"                   	     13K	       1
+"/home/artur/.config/gh"                          	     18K	       2
+"/home/artur/.config/git"                         	     13K	       1
+"/home/artur/.config/glib-2.0"                    	     22K	       1
+"/home/artur/.config/goa-1.0"                     	    8.5K	       0
+"/home/artur/.config/google-chrome"               	    8.5K	       0
+"/home/artur/.config/gtk-2.0"                     	     22K	       3
+"/home/artur/.config/gtk-3.0"                     	     27K	       4
+"/home/artur/.config/gtkrc-2.0"                   	    4.5K	       1
+"/home/artur/.config/htop"                        	     13K	       1
+"/home/artur/.config/inkscape"                    	    111K	       3
+"/home/artur/.config/java"                        	     57K	       5
+"/home/artur/.config/kcalcrc"                     	    4.5K	       1
+"/home/artur/.config/kdeglobals"                  	    4.5K	       1
+"/home/artur/.config/kitty"                       	     36K	       4
+"/home/artur/.config/ktouch2rc"                   	    4.5K	       1
+"/home/artur/.config/kwalletmanager5rc"           	    4.5K	       1
+"/home/artur/.config/kwalletrc"                   	    4.5K	       1
+"/home/artur/.config/libreoffice"                 	    8.6M	     995
+"/home/artur/.config/libvirt"                     	    102K	       0
+"/home/artur/.config/lximage-qt"                  	     13K	       1
+"/home/artur/.config/lxqt"                        	     13K	       1
+"/home/artur/.config/mako"                        	    8.5K	       0
+"/home/artur/.config/matplotlib"                  	    8.5K	       0
+"/home/artur/.config/meli"                        	     13K	       1
+"/home/artur/.config/mimeapps.list"               	    4.5K	       1
+"/home/artur/.config/mpv"                         	     18K	       2
+"/home/artur/.config/neofetch"                    	     21K	       1
+"/home/artur/.config/newsboat"                    	     30K	       2
+"/home/artur/.config/nu"                          	    9.0K	       1
+"/home/artur/.config/nvim"                        	     92M	    3118
+"/home/artur/.config/obs-studio"                  	    426K	      25
+"/home/artur/.config/octave"                      	    8.5K	       0
+"/home/artur/.config/okularpartrc"                	    4.5K	       1
+"/home/artur/.config/okularrc"                    	    4.5K	       1
+"/home/artur/.config/oxygen-gtk"                  	     13K	       1
+"/home/artur/.config/oxygenrc"                    	    4.5K	       1
+"/home/artur/.config/parallel"                    	     48K	       4
+"/home/artur/.config/pcmanfm-qt"                  	     22K	       1
+"/home/artur/.config/pipewire-media-session"      	     18K	       2
+"/home/artur/.config/powerdevilrc"                	    4.5K	       1
+"/home/artur/.config/powermanagementprofilesrc"   	    4.5K	       1
+"/home/artur/.config/procps"                      	    8.5K	       0
+"/home/artur/.config/pulse"                       	    9.5K	       0
+"/home/artur/.config/qBittorrent"                 	     31K	       4
+"/home/artur/.config/qt5ct"                       	     30K	       1
+"/home/artur/.config/qtcurve"                     	     18K	       2
+"/home/artur/.config/qutebrowser"                 	     18K	       2
+"/home/artur/.config/readline"                    	     13K	       1
+"/home/artur/.config/redshift.conf"               	    4.5K	       1
+"/home/artur/.config/s3cmd"                       	     13K	       1
+"/home/artur/.config/sddmthemeinstallerrc"        	    4.5K	       1
+"/home/artur/.config/session"                     	     34K	       2
+"/home/artur/.config/spectaclerc"                 	    4.5K	       1
+"/home/artur/.config/straw-viewer"                	    740K	       6
+"/home/artur/.config/sway"                        	     26K	       3
+"/home/artur/.config/systemmonitorrc"             	    4.5K	       1
+"/home/artur/.config/systemsettingsrc"            	    4.5K	       1
+"/home/artur/.config/unity3d"                     	    579K	      31
+"/home/artur/.config/user-dirs.dirs"              	    4.5K	       1
+"/home/artur/.config/user-dirs.locale"            	    4.5K	       1
+"/home/artur/.config/waybar"                      	     40K	       5
+"/home/artur/.config/wget"                        	     14K	       2
+"/home/artur/.config/xbacklight"                  	     13K	       1
+"/home/artur/.config/xsettingsd"                  	     13K	       1
+"/home/artur/.config/zathura"                     	     13K	       1
+"/home/artur/.config/zsh"                         	    3.3M	     163
+"/home/artur/.config/Android Open Source Project"           	     13K	       1
+"/home/artur/.config/Audaciousrc"                           	    4.5K	       1
+"/home/artur/.config/GIMP"                                  	    639K	      65
+"/home/artur/.config/GNU Octaverc"                          	    4.5K	       1
+"/home/artur/.config/JetBrains"                             	    619K	      68
+"/home/artur/.config/QtProject.conf"                        	    4.5K	       1
+"/home/artur/.config/RSS Guard"                             	    1.2M	       4
+"/home/artur/.config/RSS Guardrc"                           	    4.5K	       1
+"/home/artur/.config/Thunar"                                	     18K	       2
+"/home/artur/.config/Unity"                                 	     13K	       1
+"/home/artur/.config/Unity Hub"                             	    9.0K	       1
+"/home/artur/.config/UnityHub"                              	     18M	     114
+"/home/artur/.config/alsa"                                  	     18K	       2
+"/home/artur/.config/android"                               	    5.4G	     292
+"/home/artur/.config/arkrc"                                 	    4.5K	       1
+"/home/artur/.config/audacious"                             	     44K	       6
+"/home/artur/.config/autostart"                             	     44K	       7
+"/home/artur/.config/autostart-scripts"                     	    9.0K	       0
+"/home/artur/.config/binwalk"                               	     44K	       2
+"/home/artur/.config/bluedevilglobalrc"                     	    4.5K	       1
+"/home/artur/.config/brasero"                               	     13K	       1
+"/home/artur/.config/cef_user_data"                         	    350K	       1
+"/home/artur/.config/chromium"                              	    180M	    3567
+"/home/artur/.config/configstore"                           	     13K	       1
+"/home/artur/.config/dconf"                                 	     25K	       1
+"/home/artur/.config/device_automounter_kcmrc"              	    4.5K	       1
+"/home/artur/.config/doctl"                                 	     17K	       1
+"/home/artur/.config/dolphinrc"                             	    4.5K	       1
+"/home/artur/.config/emaildefaults"                         	    4.5K	       1
+"/home/artur/.config/enchant"                               	    9.5K	       2
+"/home/artur/.config/evolution"                             	    436K	      65
+"/home/artur/.config/filelightrc"                           	    4.5K	       1
+"/home/artur/.config/filetypesrc"                           	    4.5K	       1
+"/home/artur/.config/filezilla"                             	     32K	       6
+"/home/artur/.config/firejail"                              	     13K	       1
+"/home/artur/.config/fontconfig"                            	     18K	       2
+"/home/artur/.config/foot"                                  	     13K	       1
+"/home/artur/.config/galculator"                            	     13K	       1
+"/home/artur/.config/gammastep"                             	     13K	       1
+"/home/artur/.config/gh"                                    	     18K	       2
+"/home/artur/.config/git"                                   	     13K	       1
+"/home/artur/.config/glib-2.0"                              	     22K	       1
+"/home/artur/.config/goa-1.0"                               	    8.5K	       0
+"/home/artur/.config/google-chrome"                         	    8.5K	       0
+"/home/artur/.config/gtk-2.0"                               	     22K	       3
+"/home/artur/.config/gtk-3.0"                               	     27K	       4
+"/home/artur/.config/gtkrc-2.0"                             	    4.5K	       1
+"/home/artur/.config/htop"                                  	     13K	       1
+"/home/artur/.config/inkscape"                              	    111K	       3
+"/home/artur/.config/java"                                  	     57K	       5
+"/home/artur/.config/kcalcrc"                               	    4.5K	       1
+"/home/artur/.config/kdeglobals"                            	    4.5K	       1
+"/home/artur/.config/kitty"                                 	     36K	       4
+"/home/artur/.config/ktouch2rc"                             	    4.5K	       1
+"/home/artur/.config/kwalletmanager5rc"                     	    4.5K	       1
+"/home/artur/.config/kwalletrc"                             	    4.5K	       1
+"/home/artur/.config/libreoffice"                           	    8.6M	     995
+"/home/artur/.config/libvirt"                               	    102K	       0
+"/home/artur/.config/lximage-qt"                            	     13K	       1
+"/home/artur/.config/lxqt"                                  	     13K	       1
+"/home/artur/.config/mako"                                  	    8.5K	       0
+"/home/artur/.config/matplotlib"                            	    8.5K	       0
+"/home/artur/.config/meli"                                  	     13K	       1
+"/home/artur/.config/mimeapps.list"                         	    4.5K	       1
+"/home/artur/.config/mpv"                                   	     18K	       2
+"/home/artur/.config/neofetch"                              	     21K	       1
+"/home/artur/.config/newsboat"                              	     30K	       2
+"/home/artur/.config/nu"                                    	    9.0K	       1
+"/home/artur/.config/nvim"                                  	     92M	    3118
+"/home/artur/.config/obs-studio"                            	    426K	      25
+"/home/artur/.config/octave"                                	    8.5K	       0
+"/home/artur/.config/okularpartrc"                          	    4.5K	       1
+"/home/artur/.config/okularrc"                              	    4.5K	       1
+"/home/artur/.config/oxygen-gtk"                            	     13K	       1
+"/home/artur/.config/oxygenrc"                              	    4.5K	       1
+"/home/artur/.config/parallel"                              	     48K	       4
+"/home/artur/.config/pcmanfm-qt"                            	     22K	       1
+"/home/artur/.config/pipewire-media-session"                	     18K	       2
+"/home/artur/.config/powerdevilrc"                          	    4.5K	       1
+"/home/artur/.config/powermanagementprofilesrc"             	    4.5K	       1
+"/home/artur/.config/procps"                                	    8.5K	       0
+"/home/artur/.config/pulse"                                 	    9.5K	       0
+"/home/artur/.config/qBittorrent"                           	     31K	       4
+"/home/artur/.config/qt5ct"                                 	     30K	       1
+"/home/artur/.config/qtcurve"                               	     18K	       2
+"/home/artur/.config/qutebrowser"                           	     18K	       2
+"/home/artur/.config/readline"                              	     13K	       1
+"/home/artur/.config/redshift.conf"                         	    4.5K	       1
+"/home/artur/.config/s3cmd"                                 	     13K	       1
+"/home/artur/.config/sddmthemeinstallerrc"                  	    4.5K	       1
+"/home/artur/.config/session"                               	     34K	       2
+"/home/artur/.config/spectaclerc"                           	    4.5K	       1
+"/home/artur/.config/straw-viewer"                          	    740K	       6
+"/home/artur/.config/sway"                                  	     26K	       3
+"/home/artur/.config/systemmonitorrc"                       	    4.5K	       1
+"/home/artur/.config/systemsettingsrc"                      	    4.5K	       1
+"/home/artur/.config/unity3d"                               	    579K	      31
+"/home/artur/.config/user-dirs.dirs"                        	    4.5K	       1
+"/home/artur/.config/user-dirs.locale"                      	    4.5K	       1
+"/home/artur/.config/waybar"                                	     40K	       5
+"/home/artur/.config/wget"                                  	     14K	       2
+"/home/artur/.config/xbacklight"                            	     13K	       1
+"/home/artur/.config/xsettingsd"                            	     13K	       1
+"/home/artur/.config/zathura"                               	     13K	       1
+"/home/artur/.config/zsh"                                   	    3.3M	     163
+"/home/artur/.config/Android Open Source Project"	     13K	       1
+"/home/artur/.config/Audaciousrc"       	    4.5K	       1
+"/home/artur/.config/GIMP"              	    639K	      65
+"/home/artur/.config/GNU Octaverc"      	    4.5K	       1
+"/home/artur/.config/JetBrains"         	    619K	      68
+"/home/artur/.config/QtProject.conf"    	    4.5K	       1
+"/home/artur/.config/RSS Guard"         	    1.2M	       4
+"/home/artur/.config/RSS Guardrc"       	    4.5K	       1
+"/home/artur/.config/Thunar"            	     18K	       2
+"/home/artur/.config/Unity"             	     13K	       1
+"/home/artur/.config/Unity Hub"         	    9.0K	       1
+"/home/artur/.config/UnityHub"          	     18M	     114
+"/home/artur/.config/alsa"              	     18K	       2
+"/home/artur/.config/android"           	    5.4G	     292
+"/home/artur/.config/arkrc"             	    4.5K	       1
+"/home/artur/.config/audacious"         	     44K	       6
+"/home/artur/.config/autostart"         	     44K	       7
+"/home/artur/.config/autostart-scripts" 	    9.0K	       0
+"/home/artur/.config/binwalk"           	     44K	       2
+"/home/artur/.config/bluedevilglobalrc" 	    4.5K	       1
+"/home/artur/.config/brasero"           	     13K	       1
+"/home/artur/.config/cef_user_data"     	    350K	       1
+"/home/artur/.config/chromium"          	    180M	    3567
+"/home/artur/.config/configstore"       	     13K	       1
+"/home/artur/.config/dconf"             	     25K	       1
+"/home/artur/.config/device_automounter_kcmrc"	    4.5K	       1
+"/home/artur/.config/doctl"             	     17K	       1
+"/home/artur/.config/dolphinrc"         	    4.5K	       1
+"/home/artur/.config/emaildefaults"     	    4.5K	       1
+"/home/artur/.config/enchant"           	    9.5K	       2
+"/home/artur/.config/evolution"         	    436K	      65
+"/home/artur/.config/filelightrc"       	    4.5K	       1
+"/home/artur/.config/filetypesrc"       	    4.5K	       1
+"/home/artur/.config/filezilla"         	     32K	       6
+"/home/artur/.config/firejail"          	     13K	       1
+"/home/artur/.config/fontconfig"        	     18K	       2
+"/home/artur/.config/foot"              	     13K	       1
+"/home/artur/.config/galculator"        	     13K	       1
+"/home/artur/.config/gammastep"         	     13K	       1
+"/home/artur/.config/gh"                	     18K	       2
+"/home/artur/.config/git"               	     13K	       1
+"/home/artur/.config/glib-2.0"          	     22K	       1
+"/home/artur/.config/goa-1.0"           	    8.5K	       0
+"/home/artur/.config/google-chrome"     	    8.5K	       0
+"/home/artur/.config/gtk-2.0"           	     22K	       3
+"/home/artur/.config/gtk-3.0"           	     27K	       4
+"/home/artur/.config/gtkrc-2.0"         	    4.5K	       1
+"/home/artur/.config/htop"              	     13K	       1
+"/home/artur/.config/inkscape"          	    111K	       3
+"/home/artur/.config/java"              	     57K	       5
+"/home/artur/.config/kcalcrc"           	    4.5K	       1
+"/home/artur/.config/kdeglobals"        	    4.5K	       1
+"/home/artur/.config/kitty"             	     36K	       4
+"/home/artur/.config/ktouch2rc"         	    4.5K	       1
+"/home/artur/.config/kwalletmanager5rc" 	    4.5K	       1
+"/home/artur/.config/kwalletrc"         	    4.5K	       1
+"/home/artur/.config/libreoffice"       	    8.6M	     995
+"/home/artur/.config/libvirt"           	    102K	       0
+"/home/artur/.config/lximage-qt"        	     13K	       1
+"/home/artur/.config/lxqt"              	     13K	       1
+"/home/artur/.config/mako"              	    8.5K	       0
+"/home/artur/.config/matplotlib"        	    8.5K	       0
+"/home/artur/.config/meli"              	     13K	       1
+"/home/artur/.config/mimeapps.list"     	    4.5K	       1
+"/home/artur/.config/mpv"               	     18K	       2
+"/home/artur/.config/neofetch"          	     21K	       1
+"/home/artur/.config/newsboat"          	     30K	       2
+"/home/artur/.config/nu"                	    9.0K	       1
+"/home/artur/.config/nvim"              	     92M	    3118
+"/home/artur/.config/obs-studio"        	    426K	      25
+"/home/artur/.config/octave"            	    8.5K	       0
+"/home/artur/.config/okularpartrc"      	    4.5K	       1
+"/home/artur/.config/okularrc"          	    4.5K	       1
+"/home/artur/.config/oxygen-gtk"        	     13K	       1
+"/home/artur/.config/oxygenrc"          	    4.5K	       1
+"/home/artur/.config/parallel"          	     48K	       4
+"/home/artur/.config/pcmanfm-qt"        	     22K	       1
+"/home/artur/.config/pipewire-media-session"	     18K	       2
+"/home/artur/.config/powerdevilrc"      	    4.5K	       1
+"/home/artur/.config/powermanagementprofilesrc"	    4.5K	       1
+"/home/artur/.config/procps"            	    8.5K	       0
+"/home/artur/.config/pulse"             	    9.5K	       0
+"/home/artur/.config/qBittorrent"       	     31K	       4
+"/home/artur/.config/qt5ct"             	     30K	       1
+"/home/artur/.config/qtcurve"           	     18K	       2
+"/home/artur/.config/qutebrowser"       	     18K	       2
+"/home/artur/.config/readline"          	     13K	       1
+"/home/artur/.config/redshift.conf"     	    4.5K	       1
+"/home/artur/.config/s3cmd"             	     13K	       1
+"/home/artur/.config/sddmthemeinstallerrc"	    4.5K	       1
+"/home/artur/.config/session"           	     34K	       2
+"/home/artur/.config/spectaclerc"       	    4.5K	       1
+"/home/artur/.config/straw-viewer"      	    740K	       6
+"/home/artur/.config/sway"              	     26K	       3
+"/home/artur/.config/systemmonitorrc"   	    4.5K	       1
+"/home/artur/.config/systemsettingsrc"  	    4.5K	       1
+"/home/artur/.config/unity3d"           	    579K	      31
+"/home/artur/.config/user-dirs.dirs"    	    4.5K	       1
+"/home/artur/.config/user-dirs.locale"  	    4.5K	       1
+"/home/artur/.config/waybar"            	     40K	       5
+"/home/artur/.config/wget"              	     14K	       2
+"/home/artur/.config/xbacklight"        	     13K	       1
+"/home/artur/.config/xsettingsd"        	     13K	       1
+"/home/artur/.config/zathura"           	     13K	       1
+"/home/artur/.config/zsh"               	    3.3M	     163
+ "/home/artur/.config/Android Open Source Project"	  13K	    1
+                 "/home/artur/.config/Audaciousrc"	 4.5K	    1
+                        "/home/artur/.config/GIMP"	 639K	   65
+                "/home/artur/.config/GNU Octaverc"	 4.5K	    1
+                   "/home/artur/.config/JetBrains"	 619K	   68
+              "/home/artur/.config/QtProject.conf"	 4.5K	    1
+                   "/home/artur/.config/RSS Guard"	 1.2M	    4
+                 "/home/artur/.config/RSS Guardrc"	 4.5K	    1
+                      "/home/artur/.config/Thunar"	  18K	    2
+                       "/home/artur/.config/Unity"	  13K	    1
+                   "/home/artur/.config/Unity Hub"	 9.0K	    1
+                    "/home/artur/.config/UnityHub"	  18M	  114
+                        "/home/artur/.config/alsa"	  18K	    2
+                     "/home/artur/.config/android"	 5.4G	  292
+                       "/home/artur/.config/arkrc"	 4.5K	    1
+                   "/home/artur/.config/audacious"	  44K	    6
+                   "/home/artur/.config/autostart"	  44K	    7
+           "/home/artur/.config/autostart-scripts"	 9.0K	    0
+                     "/home/artur/.config/binwalk"	  44K	    2
+           "/home/artur/.config/bluedevilglobalrc"	 4.5K	    1
+                     "/home/artur/.config/brasero"	  13K	    1
+               "/home/artur/.config/cef_user_data"	 350K	    1
+                    "/home/artur/.config/chromium"	 180M	 3568
+                 "/home/artur/.config/configstore"	  13K	    1
+                       "/home/artur/.config/dconf"	  25K	    1
+    "/home/artur/.config/device_automounter_kcmrc"	 4.5K	    1
+                       "/home/artur/.config/doctl"	  17K	    1
+                   "/home/artur/.config/dolphinrc"	 4.5K	    1
+               "/home/artur/.config/emaildefaults"	 4.5K	    1
+                     "/home/artur/.config/enchant"	 9.5K	    2
+                   "/home/artur/.config/evolution"	 436K	   65
+                 "/home/artur/.config/filelightrc"	 4.5K	    1
+                 "/home/artur/.config/filetypesrc"	 4.5K	    1
+                   "/home/artur/.config/filezilla"	  32K	    6
+                    "/home/artur/.config/firejail"	  13K	    1
+                  "/home/artur/.config/fontconfig"	  18K	    2
+                        "/home/artur/.config/foot"	  13K	    1
+                  "/home/artur/.config/galculator"	  13K	    1
+                   "/home/artur/.config/gammastep"	  13K	    1
+                          "/home/artur/.config/gh"	  18K	    2
+                         "/home/artur/.config/git"	  13K	    1
+                    "/home/artur/.config/glib-2.0"	  22K	    1
+                     "/home/artur/.config/goa-1.0"	 8.5K	    0
+               "/home/artur/.config/google-chrome"	 8.5K	    0
+                     "/home/artur/.config/gtk-2.0"	  22K	    3
+                     "/home/artur/.config/gtk-3.0"	  27K	    4
+                   "/home/artur/.config/gtkrc-2.0"	 4.5K	    1
+                        "/home/artur/.config/htop"	  13K	    1
+                    "/home/artur/.config/inkscape"	 111K	    3
+                        "/home/artur/.config/java"	  57K	    5
+                     "/home/artur/.config/kcalcrc"	 4.5K	    1
+                  "/home/artur/.config/kdeglobals"	 4.5K	    1
+                       "/home/artur/.config/kitty"	  36K	    4
+                   "/home/artur/.config/ktouch2rc"	 4.5K	    1
+           "/home/artur/.config/kwalletmanager5rc"	 4.5K	    1
+                   "/home/artur/.config/kwalletrc"	 4.5K	    1
+                 "/home/artur/.config/libreoffice"	 8.6M	  995
+                     "/home/artur/.config/libvirt"	 102K	    0
+                  "/home/artur/.config/lximage-qt"	  13K	    1
+                        "/home/artur/.config/lxqt"	  13K	    1
+                        "/home/artur/.config/mako"	 8.5K	    0
+                  "/home/artur/.config/matplotlib"	 8.5K	    0
+                        "/home/artur/.config/meli"	  13K	    1
+               "/home/artur/.config/mimeapps.list"	 4.5K	    1
+                         "/home/artur/.config/mpv"	  18K	    2
+                    "/home/artur/.config/neofetch"	  21K	    1
+                    "/home/artur/.config/newsboat"	  30K	    2
+                          "/home/artur/.config/nu"	 9.0K	    1
+                        "/home/artur/.config/nvim"	  92M	 3118
+                  "/home/artur/.config/obs-studio"	 426K	   25
+                      "/home/artur/.config/octave"	 8.5K	    0
+                "/home/artur/.config/okularpartrc"	 4.5K	    1
+                    "/home/artur/.config/okularrc"	 4.5K	    1
+                  "/home/artur/.config/oxygen-gtk"	  13K	    1
+                    "/home/artur/.config/oxygenrc"	 4.5K	    1
+                    "/home/artur/.config/parallel"	  48K	    4
+                  "/home/artur/.config/pcmanfm-qt"	  22K	    1
+      "/home/artur/.config/pipewire-media-session"	  18K	    2
+                "/home/artur/.config/powerdevilrc"	 4.5K	    1
+   "/home/artur/.config/powermanagementprofilesrc"	 4.5K	    1
+                      "/home/artur/.config/procps"	 8.5K	    0
+                       "/home/artur/.config/pulse"	 9.5K	    0
+                 "/home/artur/.config/qBittorrent"	  31K	    4
+                       "/home/artur/.config/qt5ct"	  30K	    1
+                     "/home/artur/.config/qtcurve"	  18K	    2
+                 "/home/artur/.config/qutebrowser"	  18K	    2
+                    "/home/artur/.config/readline"	  13K	    1
+               "/home/artur/.config/redshift.conf"	 4.5K	    1
+                       "/home/artur/.config/s3cmd"	  13K	    1
+        "/home/artur/.config/sddmthemeinstallerrc"	 4.5K	    1
+                     "/home/artur/.config/session"	  34K	    2
+                 "/home/artur/.config/spectaclerc"	 4.5K	    1
+                "/home/artur/.config/straw-viewer"	 740K	    6
+                        "/home/artur/.config/sway"	  26K	    3
+             "/home/artur/.config/systemmonitorrc"	 4.5K	    1
+            "/home/artur/.config/systemsettingsrc"	 4.5K	    1
+                     "/home/artur/.config/unity3d"	 579K	   31
+              "/home/artur/.config/user-dirs.dirs"	 4.5K	    1
+            "/home/artur/.config/user-dirs.locale"	 4.5K	    1
+                      "/home/artur/.config/waybar"	  40K	    5
+                        "/home/artur/.config/wget"	  14K	    2
+                  "/home/artur/.config/xbacklight"	  13K	    1
+                  "/home/artur/.config/xsettingsd"	  13K	    1
+                     "/home/artur/.config/zathura"	  13K	    1
+                         "/home/artur/.config/zsh"	 3.3M	  163
