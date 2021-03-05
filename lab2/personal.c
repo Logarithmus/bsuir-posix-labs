@@ -21,7 +21,21 @@ const char OFF_T_LEN_MAX = 8 * sizeof(off_t) * (M_LN2 / M_LN10) + 2 + 1;
 const char DATE_LEN_MAX = 8 * 3 * sizeof(int) * (M_LN2 / M_LN10) + 2 + 1;
 const size_t INDENT_SIZE = PATH_MAX * INDENT_LEN + LINE_END_INDENT_LEN + LAST_ITEM_INDENT_LEN + 1;
 const size_t NAME_SIZE_DATE_SIZE = FILENAME_MAX + 1 + OFF_T_LEN_MAX + 1 + DATE_LEN_MAX + 1;
-const size_t BUF_SIZE = INDENT_SIZE + NAME_SIZE_DATE_SIZE;
+const size_t BUF_SIZE = INDENT_SIZE + NAME_SIZE_DATE_SIZE; 
+const int MAX_DATE_STR_SIZE = 20 + 1 + 2 + 1 + 2 + 1;
+
+bool date_str_to_time_t(time_t* time, const char* date_str) {
+	struct tm tm = {0};
+	if (strptime(date_str, "%Y-%m-%d", &tm) != NULL) {
+		*time = mktime(&tm);
+		return true;
+	}
+	return false;
+}
+
+bool time_t_to_date_str(char* date_str, const time_t time) {
+	return strftime(date_str, BUF_SIZE, "%Y-%m-%d", localtime(&time));
+}
 
 struct cmdopts {
 	char* dir;
@@ -53,18 +67,17 @@ int parse_cmdopts(char** argv) {
 	}
 	
 	errno = 0;
-	options.min_ctime = strtol(argv[5], &leftover, 10);
-	if (leftover == NULL || *leftover != '\0' || errno != 0) {
-		perror("Invalid min creation time");
+	if(!date_str_to_time_t(&options.min_ctime, argv[5])) {
+		perror("Invalid min creation date");
 		return -3;
 	}
 	
 	errno = 0;
-	options.max_ctime = strtol(argv[6], &leftover, 10);
-	if (leftover == NULL || *leftover != '\0' || errno != 0) {
-		perror("Invalid max creation time");
+	if(!date_str_to_time_t(&options.max_ctime, argv[6])) {
+		perror("Invalid max creation date");
 		return -4;
 	} else if (options.max_ctime < options.min_ctime) {
+		printf("%li\t%li", options.min_ctime, options.max_ctime);
 		perror("Maximum creation time can't be smaller than minimum");
 		return -41;
 	}
@@ -93,44 +106,42 @@ bool is_nonempty_dir(const char* dirname) {
 	return (n > 2); // . and ..
 }
 
-void print_indent(char* buf, const char* line_end_indent, int count) {
+void print_indent(const char* line_end_indent, int count) {
 	for (int i = 0; i < count - 1; ++i) {
-		snprintf(buf, INDENT_SIZE, "%s", INDENT);
+		fprintf(options.outfile, "%s", INDENT);
+		printf("%s", INDENT);
 	}
-	snprintf(buf, INDENT_SIZE, "%s", line_end_indent);
+	fprintf(options.outfile, "%s", line_end_indent);
+	printf("%s", line_end_indent);
 }
 
-time_t date_str_to_time(const char* date_str) {
-	struct tm tm = {0};
-	time_t timestamp = {0};
-	if (strptime(date_str, "%Y-%m-%d", &tm) != NULL) {
-		timestamp = mktime(&tm);
-	}
-	return timestamp;
-}
-
-
-int print_file(const char* path, const struct stat* stat,
+int print_entry(const char* path, const struct stat* stat,
 			   int info, struct FTW* ftw) {
 	static int last_level = 0;
-	static char buf[BUF_SIZE] = "";
+	// print empty line after the last file in directory
+	if (ftw->level < last_level) {
+		print_indent(INDENT, ftw->level);
+		fprintf(options.outfile, "\n");
+		printf("\n");
+	}
 	bool is_non_empty_dir = S_ISDIR(stat->st_mode) && is_nonempty_dir(path);
 	bool is_good_file = check_file(stat);
 	if (is_non_empty_dir || is_good_file) {
-		if (ftw->level != last_level - 1) {
-			print_indent(buf, INDENT, ftw->level);
-		} else {
-			print_indent(buf, LAST_ITEM_INDENT, ftw->level);
-		}
+		print_indent(LINE_END_INDENT, ftw->level);
 		if (is_good_file) {
-			snprintf(buf, NAME_SIZE_DATE_SIZE, "%s\t%zi\t%zi\n",
-					path + ftw->base, stat->st_size, stat->st_ctime);
+			char date_str[MAX_DATE_STR_SIZE];
+			if (!time_t_to_date_str(date_str, stat->st_ctime)) {
+				perror("Failed to convert time_t to string");
+				return -1;
+			}
+			fprintf(options.outfile, "%s\t%zi\t%s\n",
+					path + ftw->base, stat->st_size, date_str);
+			printf("%s\t%zi\t%s\n", path + ftw->base, stat->st_size, date_str);
 		} else {
-			snprintf(buf, FILENAME_MAX + 1, "%s", path + ftw->base);
+			fprintf(options.outfile, "%s\n", path + ftw->base);
+			printf("%s\n", path + ftw->base);
 		}
 	}
-	fputs(buf, options.outfile);
-	puts(buf);
 	last_level = ftw->level;
 	return 0;
 }
@@ -151,9 +162,10 @@ int main(int argc, char** argv) {
 	errno = 0;
 	int fd_limit = 15;
 	int flags = 0;
-	if (nftw(options.dir, print_file, fd_limit, flags) == -1) {
+	if (nftw(options.dir, print_entry, fd_limit, flags) == -1) {
 		strerror(errno);
 		return -1;
 	}
+	fclose(options.outfile);
 	return 0;
 }
