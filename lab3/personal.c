@@ -1,171 +1,182 @@
 #include <stdio.h>
-#include <ftw.h>
-#include <sys/stat.h>
-#include <time.h>
-#include <string.h>
-#include <stdbool.h>
+#include <unistd.h>
 #include <stdlib.h>
 #include <errno.h>
-#include <libgen.h>
+#include <time.h>
+#include <sys/wait.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <stdbool.h>
+#include <unistd.h>
+#include <string.h>
 #include <dirent.h>
-#include <limits.h>
-#include <math.h>
+#include <memory.h>
+#include <ftw.h>
 
-const char INDENT[] = "│  ";
-const char LINE_END_INDENT[] = "├── ";
-const char LAST_ITEM_INDENT[] = "└── ";
-const size_t INDENT_LEN = sizeof(INDENT) / sizeof(INDENT[0]);
-const size_t LINE_END_INDENT_LEN = sizeof(LINE_END_INDENT) / sizeof(LINE_END_INDENT[0]);
-const size_t LAST_ITEM_INDENT_LEN = sizeof(LAST_ITEM_INDENT) / sizeof(LAST_ITEM_INDENT[0]);
-const char OFF_T_LEN_MAX = 8 * sizeof(off_t) * (M_LN2 / M_LN10) + 2 + 1;
-const char DATE_LEN_MAX = 8 * 3 * sizeof(int) * (M_LN2 / M_LN10) + 2 + 1;
-const size_t INDENT_SIZE = PATH_MAX * INDENT_LEN + LINE_END_INDENT_LEN + LAST_ITEM_INDENT_LEN + 1;
-const size_t NAME_SIZE_DATE_SIZE = FILENAME_MAX + 1 + OFF_T_LEN_MAX + 1 + DATE_LEN_MAX + 1;
-const size_t BUF_SIZE = INDENT_SIZE + NAME_SIZE_DATE_SIZE; 
-const int MAX_DATE_STR_SIZE = 20 + 1 + 2 + 1 + 2 + 1;
+bool compare_files(const char* filename1, const char* filename2) {
+	FILE* file1 = fopen(filename1, "r");
+	FILE* file2 = fopen(filename2, "r");
+	fseek(file1, 0, SEEK_END);
 
-bool date_str_to_time_t(time_t* time, const char* date_str) {
-	struct tm tm = {0};
-	if (strptime(date_str, "%Y-%m-%d", &tm) != NULL) {
-		*time = mktime(&tm);
-		return true;
-	}
-	return false;
-}
-
-bool time_t_to_date_str(char* date_str, const time_t time) {
-	return strftime(date_str, BUF_SIZE, "%Y-%m-%d", localtime(&time));
-}
-
-struct cmdopts {
-	char* dir;
-	FILE* outfile;
-	off_t min_size, max_size;
-	time_t min_ctime, max_ctime;
-} options = {NULL, NULL, -1, -1, -1, -1};
-
-int parse_cmdopts(char** argv) {
-	options.dir = argv[1];
-	options.outfile = fopen(argv[2], "w");
-
-	errno = 0;
-	char* leftover = NULL;
-	options.min_size = strtol(argv[3], &leftover, 10);
-	if (leftover == NULL || *leftover != '\0' || errno != 0) {
-		perror("Invalid min size");
-		return -1;
-	}
+	long file1_size = ftell(file1);
+	rewind(file1);
+	fseek(file2, 0, SEEK_END);
 	
-	errno = 0;
-	options.max_size = strtol(argv[4], &leftover, 10);
-	if (leftover == NULL || *leftover != '\0' || errno != 0) {
-		perror("Invalid max size");
-		return -2;
-	} else if (options.max_size < options.min_size) {
-		perror("Maximum size can't be smaller than minimum size");
-		return -21;
-	}
-	
-	errno = 0;
-	if(!date_str_to_time_t(&options.min_ctime, argv[5])) {
-		perror("Invalid min creation date");
-		return -3;
-	}
-	
-	errno = 0;
-	if(!date_str_to_time_t(&options.max_ctime, argv[6])) {
-		perror("Invalid max creation date");
-		return -4;
-	} else if (options.max_ctime < options.min_ctime) {
-		printf("%li\t%li", options.min_ctime, options.max_ctime);
-		perror("Maximum creation time can't be smaller than minimum");
-		return -41;
-	}
-	return 0;
-}	
-
-bool check_file(const struct stat* stat) {
-	return	(S_ISREG(stat->st_mode)) && //is regular file
-			(stat->st_size >= options.min_size) &&
-			(stat->st_size <= options.max_size) &&
-			(stat->st_ctime >= options.min_ctime) &&
-			(stat->st_ctime <= options.max_ctime);
-}
-
-bool is_nonempty_dir(const char* dirname) {
-	DIR *dir = opendir(dirname);
-	if (dir == NULL) { // Not a directory or doesn't exist
+	long file2_size = ftell(file2);
+	rewind(file2);
+	if (file1_size != file2_size) {
+		printf("File sizes differ, %li vs. %li\n", file1_size, file2_size);
 		return false;
 	}
-	int n = 0;
-	struct dirent* direntry = NULL;
-	while (((direntry = readdir(dir)) != NULL) && (n <= 2)) {
-		++n;
-	}
-	closedir(dir);
-	return (n > 2); // . and ..
-}
 
-void print_indent(const char* line_end_indent, int count) {
-	for (int i = 0; i < count - 1; ++i) {
-		fprintf(options.outfile, "%s", INDENT);
-		printf("%s", INDENT);
-	}
-	fprintf(options.outfile, "%s", line_end_indent);
-	printf("%s", line_end_indent);
-}
-
-int print_entry(const char* path, const struct stat* stat,
-			   int info, struct FTW* ftw) {
-	static int last_level = 0;
-	// print empty line after the last file in directory
-	if (ftw->level < last_level) {
-		print_indent(INDENT, ftw->level);
-		fprintf(options.outfile, "\n");
-		printf("\n");
-	}
-	bool is_non_empty_dir = S_ISDIR(stat->st_mode) && is_nonempty_dir(path);
-	bool is_good_file = check_file(stat);
-	if (is_non_empty_dir || is_good_file) {
-		print_indent(LINE_END_INDENT, ftw->level);
-		if (is_good_file) {
-			char date_str[MAX_DATE_STR_SIZE];
-			if (!time_t_to_date_str(date_str, stat->st_ctime)) {
-				perror("Failed to convert time_t to string");
-				return -1;
-			}
-			fprintf(options.outfile, "%s\t%zi\t%s\n",
-					path + ftw->base, stat->st_size, date_str);
-			printf("%s\t%zi\t%s\n", path + ftw->base, stat->st_size, date_str);
-		} else {
-			fprintf(options.outfile, "%s\n", path + ftw->base);
-			printf("%s\n", path + ftw->base);
+	char tmp1, tmp2;
+	for (int i = 0; i < file1_size; ++i) {
+		fread(&tmp1, 1, 1, file1);
+		fread(&tmp2, 1, 1, file2);
+		if (tmp1 != tmp2) {
+			printf("%x: tmp1 0x%x != tmp2 0x%x\n", i, tmp1, tmp2);
+			return false;
 		}
 	}
-	last_level = ftw->level;
+	return true;
+}
+
+int file_count = 0;
+
+int count_file(const char* path, const struct stat* stat,
+			   int info, struct FTW* ftw) {
+	if (S_ISREG(stat->st_mode)) {
+		++file_count;
+	}
 	return 0;
+}
+
+int count_files_nftw(const char* dirname) {
+	const int FD_LIMIT = 15;
+	const int FLAGS = 0;
+	errno = 0;
+	file_count = 0;
+	if (nftw(dirname, count_file, FD_LIMIT, FLAGS) == -1) {
+		perror("nftw error");
+		return errno;
+	}
+	printf("nftw: %i\n", file_count);
+	return file_count;
+}
+
+void getlist(int* _i, char** _str, char* dirn, int* _fsize) {
+	DIR* dirs;
+	dirs = opendir(dirn);
+	if (dirs) {
+		struct dirent* dirstr;
+		while ((dirstr = readdir(dirs))) {
+			char* fnm = dirstr->d_name;
+			char* fullnm = (char*)alloca(strlen(dirn) + strlen(fnm) + 1);
+			strcpy(fullnm, dirn);
+			strcat(fullnm, "/");
+			strcat(fullnm, fnm);
+			struct stat fst;
+			stat(fullnm, &fst);
+			if (S_ISREG(fst.st_mode) && !S_ISLNK(fst.st_mode)) {
+				strcpy(_str[*_i], fullnm);//копирование полного имени файла в массив
+				*(_fsize+*_i) = fst.st_size;//заполняем массив размера файла
+				(*_i)++;
+			}
+			if (S_ISDIR(fst.st_mode) &&
+				strcmp(fnm, ".") &&
+				strcmp(fnm, "..") &&
+				!S_ISLNK(fst.st_mode)) {
+				getlist(_i, _str, fullnm, _fsize);
+			}
+		}
+		closedir(dirs);
+	}
+	else printf("Couldn't open directory - %s\n",dirn);
+}
+
+int xfork(const char* fnm1, const char* fnm2, int* _fs) {
+	int ppid = fork();
+	if (ppid == 0) {
+		FILE* fd1 = fopen(fnm1,"r");
+		FILE* fd2 = fopen(fnm2,"r");
+		int t = 0;
+		while (abs(fgetc(fd1)) == fgetc(fd2)) ++t;
+		printf("\n_____ PID: %d ____\n1> %s\n2> %s\n === Result: %d of %d bytes match ===\n", getpid(), fnm1, fnm2, t, *_fs);
+		fclose(fd1);
+		fclose(fd2);
+	}
+	return ppid;
 }
 
 int main(int argc, char** argv) {
 	switch (argc) {
-		case 1: perror("Directory name is missing"); return -1;
-		case 2: perror("Output file name is missing"); return -2;
-		case 3: perror("Min size is missing"); return -3;
-		case 4: perror("Max size is missing"); return -4;
-		case 5: perror("Min time is missing"); return -5;
-		case 6: perror("Max time is missing"); return -6;
+		case 0: perror("Something really nasty happened!!!"); return -1;
+		case 1: perror("Missing dir1"); return -2;
+		case 2: perror("Missing dir2"); return -3;
+		case 3: perror("Missing max process count"); return -4;
 	}
-	int code = parse_cmdopts(argv);
-	if (code) {
-		return code;
-	}
+
 	errno = 0;
-	int fd_limit = 15;
-	int flags = 0;
-	if (nftw(options.dir, print_entry, fd_limit, flags) == -1) {
-		strerror(errno);
-		return -1;
+	int N = 0;
+	if(!sscanf(argv[3], "%d", &N)) {
+		perror("Not whole number");
+		return errno;
 	}
-	fclose(options.outfile);
+
+	errno = 0;
+	int ksize1 = count_files_nftw(argv[1]);
+	int ksize2 = count_files_nftw(argv[2]);
+	printf("Total files found: %d ", ksize1 + ksize2);
+	
+	//Memory allocation
+	char** str1 = malloc(ksize1 * sizeof(char*));
+	char** str2 = malloc(ksize2 * sizeof(char*));
+	int* fsize1 = malloc(ksize1 * sizeof(int));
+	int* fsize2 = malloc(ksize2 * sizeof(int));
+	for (int i = 0; i < ksize1; ++i) {
+		str1[i] = malloc(512 * sizeof(char));
+	}
+	for (int i = 0; i < ksize2; ++i) {
+		str2[i] = malloc(512 * sizeof(char));
+	}
+
+	ksize1 = 0;
+	ksize2 = 0;
+	getlist(&ksize1, str1, argv[1], fsize1);
+	getlist(&ksize2, str2, argv[2], fsize2);
+	printf("Total files read: %d\n",ksize1 + ksize2);
+
+	int fr = 1; //fork result
+	int n = 0; // переменные счетчики
+	for (int i = 0; i < ksize1; ++i) {
+		for (int k = 0; k < ksize2; ++k) {
+			if (fr > 0) {
+				if (fsize1[i] == fsize2[k]) {
+					if (n++ > N) {
+						wait(NULL);
+					}
+					fr = xfork(str1[i], str2[k], fsize1 + i);
+				}
+			} else {
+				break;
+			}
+		}
+	}
+	if (fr > 0) {
+		while (wait(NULL) > 0);
+		printf("\nErrno result: %s \n", strerror(errno));
+	}
+
+	// Free memory
+	for (int i = 0; i < ksize1; ++i) {
+		free(str1[i]);
+	}
+	for (int i = 0; i < ksize2; ++i) {
+		free(str2[i]);
+	}
+	free(str1);
+	free(str2);
+	free(fsize1);
+	free(fsize2);
 	return 0;
 }
